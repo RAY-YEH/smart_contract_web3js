@@ -277,7 +277,7 @@ let abi = [
 	}
 ]
 let guess1000Contract = web3.eth.contract(abi);
-let contractInstance = guess1000Contract.at('0x5ae37D884b40e6903d0D39717f6D7c75d70aF256');
+let contractInstance = guess1000Contract.at('0xcdd0ecc7ccc604e3f99237660d4e9b860b14728c');
 console.log('contractInstance', contractInstance);
 
 Date.prototype.Format = function (fmt) { //author: meizz 
